@@ -1,0 +1,9 @@
+Beberapa tabel yang disiapkan :
+- customer_dataset
+- geolocation_dataset
+- order_items_dataset
+- order_payments_dataset
+- order_reviews_dataset
+- orders_dataset
+- product_dataset
+- sellers_dataset
