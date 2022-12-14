@@ -5,13 +5,22 @@ Created by: Rheza Paleva Uyanto
 uyantorheza@gmail.com
 https://www.linkedin.com/in/rheza-uyanto/
 
-## Introduction
+## Latar Belakang dan Objektif
 “Dalam suatu perusahaan mengukur performa bisnis sangatlah penting untuk melacak, memantau, dan menilai keberhasilan atau kegagalan dari berbagai proses bisnis. Oleh karena itu, dalam paper ini akan menganalisa performa bisnis untuk sebuah perusahan eCommerce,  dengan memperhitungkan beberapa metrik bisnis yaitu pertumbuhan pelanggan, kualitas produk, dan tipe pembayaran.”
 
-## Tools
+## Pertanyaan Riset
+" Bagaimana pertumbuhan performa perusahaan dilihat dari pelanggan, produk dan tipe pembayaran ?"
+
+## Tujuan:
+- Dapat mengidentifikasi metrik bisnis sebuah perusahaaan eCommerce dari sisi pelanggan, produk dan tipe pembayaran.
+
+## Tools:
 - PostgreSQL
 
-## Skill
+## Data Awal:
+- 
+
+## Skill yang didapatkan:
 - Membuat ERD, Primary Key dan Foreign Key dalam Database SQL
 - Import Table
 - Extract DATESTAMP 
