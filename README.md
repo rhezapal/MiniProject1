@@ -1,6 +1,5 @@
-# MiniProject1
-Rakamin Academy - Analyzing eCommerce Business Performance with SQL
-
+# MiniProject1 - Analyzing eCommerce Business Performance with SQL
+Rakamin Academy
 Created by: Rheza Paleva Uyanto
 uyantorheza@gmail.com
 https://www.linkedin.com/in/rheza-uyanto/
@@ -28,26 +27,30 @@ https://www.linkedin.com/in/rheza-uyanto/
 - Sedangkan untuk tipe pembayaran, hal yang dilihat adalah: Perolehan transaksi dari jenis payment per tahun, dan Top kategori produk dari masing-masing payment per tahun
 
 ## Data Perkembangan Customer :
+- Tabel yang digunakan : customers_dataset dan orders_dataset.
 - Paling tinggi di tahun 2018 sebanyak 54.011 customer. Customer tidak melakukan repeat order kembali di tahun berikutnya.
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/114345988/207607566-7b3f5b65-2dfd-4e5b-b7bd-b43331b0c478.png">
 
 ## Data Produk :
+- Tabel yang digunakan : product_dataset, orders_dataset, dan order_items_dataset.
 - Berikut grafik revenue dalam periode waktu tertentu. Berdasarkan grafik tersebur, revenue tertinggi dicapai pada bulan November 2017
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/114345988/207607809-845e65ca-2bce-45de-8556-6055403b27cb.png">
 
 ## Data Tipe Pembayaran :
+- Tabel yang digunakan : orders_payment_dataset dan orders_dataset.
 - Berdasarkan data, terdapat 4 jenis pembayaran yang digunakan : debit card, credit card, voucher, dan boleto. Nominal pembayaran menggunakan credit card mendominasi pembayaran.
 <img width="556" alt="image" src="https://user-images.githubusercontent.com/114345988/207608547-b00fcc35-cb75-47a3-bead-00a66301472f.png">
 
 ## Skill yang didapatkan:
 - Membuat ERD, Primary Key dan Foreign Key dalam Database SQL
-- Import Table
-- Extract DATESTAMP 
-- JOIN, 
-- SUBQUERY, 
-- AGGREGASI, 
-- GROUPING
-- Membuat CTE
-- RANK
+- Import Table, Extract DATESTAMP, JOIN, SUBQUERY, AGGREGASI, GROUPING, Membuat CTE dan RANK
 
+## Kesimpulan
+- Performa perusahaan dari segi pelanggan sedikit memprihatinkan, karena terjadi penurunan yang cukup drastis pada akhir September dan Okotber 2018, dan tidak ada customer yang repeat order.
+- Dari segi produk, jumlah produk yang disediakan oleh perusahaan cukup beragam, sehingga membuat customer memiliki banyak pilihan dalam berbelanja.
+- Dari segi tipe pembayaran, jumlah pembayaran masih cukup sedikit. Hal ini membuat pelanggan cukup kesulitan dalam melakukan pembayaran.
+
+## Saran
+- Perlu adanya strategi marketing agar pelanggan dapat repeat order, sehingga jumlah custoomer tidak turun.
+- Memperluas tipe pembayaran, sehingga dapat mempercepat proses pembelanjaan. Mungkin perlu menggunakan transfer atau uang elektronik.
 
