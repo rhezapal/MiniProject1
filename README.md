@@ -18,7 +18,26 @@ https://www.linkedin.com/in/rheza-uyanto/
 - PostgreSQL
 
 ## Data Awal:
-- 
+- Data awal berupa 8 tabel yang tidak saling berhubungan. Tabel - tabel tersebut antara lain: sellers_dataset, product_dataset, order_payments_dataset, order_reviews_dataset, geolocation_dataset, order_items_dataset, orders_dataset, dan customer_dataset.
+- Menentukan Primary Key dan Foreign Key untuk membuat ERD.
+- Karena tidak semua tabel memiliki primary key, karena syarat untuk primary key adalah nilai harus unique, sehingga untuk tabel order_payments_dataset, order_reviews_dataset, dan geolocation_dataset, perlu adanya tambahan tabel yang berisi nilai unik saja.
+
+## Data Preprocessing via SQL:
+- Untuk menunjukkan perkembangan customer, hal yang dilihat antara lain : Rata-rata Monthly Active User (MAU) per tahun, Total customer baru per tahun, Jumlah customer yang melakukan repeat order per tahun, dan Rata-rata frekuensi order untuk setiap tahun.
+- Untuk menunjukkan perkembangan produk, hal yang dilihat adalah : Revenue per tahun, Jumlah cancel order per tahun, Top kategori yang menghasilkan revenue terbesar per tahun, dan Kategori yang mengalami cancel order terbanyak per tahun.
+- Sedangkan untuk tipe pembayaran, hal yang dilihat adalah: Perolehan transaksi dari jenis payment per tahun, dan Top kategori produk dari masing-masing payment per tahun
+
+## Data Perkembangan Customer :
+- Paling tinggi di tahun 2018 sebanyak 54.011 customer. Customer tidak melakukan repeat order kembali di tahun berikutnya.
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/114345988/207607566-7b3f5b65-2dfd-4e5b-b7bd-b43331b0c478.png">
+
+## Data Produk :
+- Berikut grafik revenue dalam periode waktu tertentu. Berdasarkan grafik tersebur, revenue tertinggi dicapai pada bulan November 2017
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/114345988/207607809-845e65ca-2bce-45de-8556-6055403b27cb.png">
+
+## Data Tipe Pembayaran :
+- Berdasarkan data, terdapat 4 jenis pembayaran yang digunakan : debit card, credit card, voucher, dan boleto. Nominal pembayaran menggunakan credit card mendominasi pembayaran.
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/114345988/207608547-b00fcc35-cb75-47a3-bead-00a66301472f.png">
 
 ## Skill yang didapatkan:
 - Membuat ERD, Primary Key dan Foreign Key dalam Database SQL
