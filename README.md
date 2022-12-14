@@ -29,17 +29,17 @@ https://www.linkedin.com/in/rheza-uyanto/
 ## Data Perkembangan Customer :
 - Tabel yang digunakan : customers_dataset dan orders_dataset.
 - Paling tinggi di tahun 2018 sebanyak 54.011 customer. Customer tidak melakukan repeat order kembali di tahun berikutnya.
-<img width="720" alt="image" src="https://user-images.githubusercontent.com/114345988/207607566-7b3f5b65-2dfd-4e5b-b7bd-b43331b0c478.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114345988/207607566-7b3f5b65-2dfd-4e5b-b7bd-b43331b0c478.png">
 
 ## Data Produk :
 - Tabel yang digunakan : product_dataset, orders_dataset, dan order_items_dataset.
 - Berikut grafik revenue dalam periode waktu tertentu. Berdasarkan grafik tersebur, revenue tertinggi dicapai pada bulan November 2017
-<img width="720" alt="image" src="https://user-images.githubusercontent.com/114345988/207607809-845e65ca-2bce-45de-8556-6055403b27cb.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/114345988/207607809-845e65ca-2bce-45de-8556-6055403b27cb.png">
 
 ## Data Tipe Pembayaran :
 - Tabel yang digunakan : orders_payment_dataset dan orders_dataset.
 - Berdasarkan data, terdapat 4 jenis pembayaran yang digunakan : debit card, credit card, voucher, dan boleto. Nominal pembayaran menggunakan credit card mendominasi pembayaran.
-<img width="556" alt="image" src="https://user-images.githubusercontent.com/114345988/207608547-b00fcc35-cb75-47a3-bead-00a66301472f.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/114345988/207608547-b00fcc35-cb75-47a3-bead-00a66301472f.png">
 
 ## Skill yang didapatkan:
 - Membuat ERD, Primary Key dan Foreign Key dalam Database SQL
